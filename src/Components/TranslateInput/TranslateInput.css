@@ -1,0 +1,39 @@
+.tab-wrapper{
+    display: flex;
+}
+.wrapper{
+    display: flex;
+    /* justify-content: space-around; */
+}
+.wrapper-all{
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+textarea{
+    /* max-width: 250px;
+    height: 230px; */
+    border: none;
+    border: 0.5px solid rgba(138, 133, 133, 0.505);
+    outline: none;
+    resize:none;
+    background-color: #fafcf5;
+    padding: 1em;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.answer-box{
+
+    padding: 1rem;
+    font-size: 18px;
+    color: dimgray;
+
+    margin-left: 15px;
+    max-width: 600px;
+    height: 254px;
+    background-color: #dcd3ca39;
+    border: 0.5px solid rgba(138, 133, 133, 0.308);
+    border-radius: 5px;
+}
